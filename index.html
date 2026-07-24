@@ -44,6 +44,8 @@
     font-size:30px;letter-spacing:1px;color:var(--ink);border-radius:2px;
     overflow:hidden;
   }
+  /* To use a real headshot, replace the .monogram <div> with:
+     <img class="monogram" src="headshot.jpg" alt="Ed Kaim" style="object-fit:cover;border:0"> */
   .role{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
   h1{
     font-family:Charter,"Iowan Old Style",Georgia,"Times New Roman",serif;
@@ -92,7 +94,7 @@
   <main class="wrap">
 
     <div class="hero">
-     <img class="monogram" src="headshot.jpg" alt="Ed Kaim" style="object-fit:cover;border:0">
+      <img class="monogram" src="headshot.jpg" alt="Ed Kaim" style="object-fit:cover;border:0">
       <div>
         <p class="role">Founder, Quantcha</p>
         <h1>Ed Kaim</h1>
@@ -110,20 +112,18 @@
 
     <section>
       <p class="label">Selected writing</p>
-      <!-- TODO: replace each href below with the article's real permalink from
-           quantcha.com/news/author/edkaim/ (they currently all point to the archive). -->
       <ul class="links">
         <li>
-          <a class="item-title" href="https://quantcha.com/news/author/edkaim/">Standardization or Bust: Why Event Contracts Need a Consolidated Clearer</a>
-          <span class="item-desc">The infrastructure the asset class needs to mature.</span>
+          <a class="item-title" href="https://quantcha.com/news/options-greeks-prediction-markets/">What Options Greeks Can Teach Us About Prediction Markets</a>
+          <span class="item-desc">The options-native lens in full—mapping delta, gamma, and theta onto prediction markets, and where the analogy breaks.</span>
         </li>
         <li>
-          <a class="item-title" href="https://quantcha.com/news/author/edkaim/">Bringing Delta to Event Contracts</a>
-          <span class="item-desc">Where the options analytical playbook does—and doesn't—translate.</span>
+          <a class="item-title" href="https://quantcha.com/news/batting-1-000-on-a-baseball-prediction-market-a-field-report-on-insider-trading/">Batting 1.000 on a Baseball Prediction Market: A Field Report on Insider Trading</a>
+          <span class="item-desc">A first-hand report from inside a live market—how legal "courtsiding" becomes de facto insider trading once a binary resolves.</span>
         </li>
         <li>
-          <a class="item-title" href="https://quantcha.com/news/author/edkaim/">Dead Cap Space: Why Polymarket Favorites Are Subtly Cheaper Than They Should Be</a>
-          <span class="item-desc">A field report from inside the order book.</span>
+          <a class="item-title" href="https://quantcha.com/news/four-operational-questions-that-determine-whether-event-contracts-become-institutional-infrastructure/">Four Operational Questions That Determine Whether Event Contracts Become Institutional Infrastructure</a>
+          <span class="item-desc">The institutional plumbing the asset class still needs—clearing, collateral netting, and contract standards.</span>
         </li>
       </ul>
       <p class="allwriting"><a href="https://quantcha.com/news/author/edkaim/">All writing →</a></p>
@@ -134,11 +134,15 @@
       <ul class="links">
         <li>
           <a class="item-title" href="https://quantcha.com">Quantcha Options Suite</a>
-          <span class="item-desc">End-to-end options trading and analytics platform for active traders — the flagship since 2014.</span>
+          <span class="item-desc">End-to-end options trading and analytics platform for active traders: the flagship since 2014.</span>
         </li>
         <li>
-          <a class="item-title" href="https://qwidgets.com">Qwidgets</a>
-          <span class="item-desc">Workspace-centric investment tools for options and, now, prediction markets — compose markets into shareable workspaces.</span>
+          <a class="item-title" href="https://qwidgets.com">Qwidgets for Options Markets</a>
+          <span class="item-desc">Workspace-centric investment tools for options traders: one place to plan, track, and manage investments of any kind.</span>
+        </li>
+        <li>
+          <a class="item-title" href="https://qwidgets.com">Qwidgets for Prediction Markets</a>
+          <span class="item-desc">A version of Qwidgets for prediction markets: compose markets and essential trading data into shareable workspaces.</span>
         </li>
         <li>
           <a class="item-title" href="https://consequitur.com">Consequitur</a>
@@ -146,7 +150,7 @@
         </li>
         <li>
           <a class="item-title" href="https://quantcha.blob.core.windows.net/public/consequitur/consequitur-technical-document-v1.0.pdf">Consequitur Technical Document (v1.0)</a>
-          <span class="item-desc">The systems document behind the beta — estimate, consensus, and propagation semantics.</span>
+          <span class="item-desc">The systems document behind the beta—estimate, consensus, and propagation semantics.</span>
         </li>
       </ul>
     </section>
